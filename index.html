@@ -107,6 +107,7 @@ details[open] summary::after{content:"–"}
 
 /* precisa da Dra */
 .check{display:grid;gap:10px;margin-top:20px}
+.item small{display:block}
 .item{display:grid;grid-template-columns:30px minmax(0,1fr);gap:12px;align-items:start;padding:16px 18px;border-radius:16px;border:1px solid var(--line);background:var(--bg)}
 .item input{width:22px;height:22px;margin-top:3px;accent-color:var(--rosa)}
 .item label{cursor:pointer}
@@ -331,6 +332,20 @@ O que mais surpreende as mães aqui no consultório é o último: o copinho d'á
     </div>
   </section>
 
+  <!-- AJUSTES DA DRA -->
+  <section class="post" id="ajustes">
+    <div class="eyebrow">Suas observações</div>
+    <h2>O que mudou na escovação depois da sua revisão</h2>
+    <p class="lead" style="color:var(--muted);margin-top:10px;max-width:60ch">Conferimos cada ponto nas diretrizes do Ministério da Saúde, da Sociedade Brasileira de Pediatria e da odontopediatria internacional. O carrossel já foi reprogramado para terça às 8h com estas mudanças.</p>
+    <div class="check">
+      <div class="item"><span style="font-size:22px">✅</span><div><b>"A quantidade certa deixa a criança segura"</b><small>Você tinha razão: não é o flúor que fica seguro, é a criança. Trocamos a frase no slide 4.</small></div></div>
+      <div class="item"><span style="font-size:22px">✅</span><div><b>Quantidade de pasta pela idade</b><small>Seguimos o Ministério da Saúde e a odontopediatria americana: um grão de arroz até 3 anos e um grão de ervilha a partir de 3 anos. O seu meio grão entrou como dica para o bebê com poucos dentinhos. Slides 4 e 9.</small></div></div>
+      <div class="item"><span style="font-size:22px">✅</span><div><b>"Menos pasta, na medida da idade"</b><small>Entrou do seu jeito no slide 10.</small></div></div>
+      <div class="item"><span style="font-size:22px">✅</span><div><b>Flúor: 1.100 ppm ou mais</b><small>É o mínimo da Sociedade Brasileira de Pediatria e o número que a mãe encontra na caixa. Slides 3 e 9.</small></div></div>
+      <div class="item"><span style="font-size:22px">✅</span><div><b>Enxaguar ou não, e a espuma do lauril</b><small>A sua própria pesquisa confirmou: o guia britânico e a Federação Dentária Internacional orientam cuspir o excesso e não enxaguar, e nenhuma diretriz manda enxaguar por causa da espuma. Mantivemos "não enxaguar" e incluímos o seu cuidado: "cuspir bem a espuma e não enxaguar". Slides 8 e 9.</small></div></div>
+    </div>
+  </section>
+
   <!-- PRECISA DA DRA -->
   <section class="post" id="confirmar">
     <div class="eyebrow">Só você pode confirmar</div>
@@ -339,7 +354,7 @@ O que mais surpreende as mães aqui no consultório é o último: o copinho d'á
     <div class="check" id="lista">
       <div class="item urgente"><input type="checkbox" id="c1"><label for="c1"><b>Cantina: a sua opinião no slide 8</b><small>"A escola tirar a tentação ajuda muito. Mas o que mais protege o dente não precisa de lei: lanche com hora marcada e água no lugar do suco." Está do jeito que você pensa?</small><span class="quando">Publica segunda, 20h30 · se quiser mudar, avise até segunda à tarde</span></label></div>
       <div class="item urgente"><input type="checkbox" id="c2"><label for="c2"><b>11 sinais: a cena do slide 2 e o sinal "rói unha"</b><small>A conversa "Ele dorme de boca aberta, não é?" acontece no consultório? E roer unha força os dentes da frente?</small><span class="quando">Publica segunda, 8h</span></label></div>
-      <div class="item"><input type="checkbox" id="c3"><label for="c3"><b>Escovação: dois detalhes</b><small>"Até uns 7 anos, quem termina a escovação é o adulto" e "depois da escovação da noite, só água".</small><span class="quando">Publica terça, 8h</span></label></div>
+      <div class="item"><input type="checkbox" id="c3"><label for="c3"><b>Escovação: um último detalhe</b><small>"Até uns 7 anos, quem termina a escovação é o adulto" (o guia britânico diz até 7 anos) e "depois da escovação da noite, só água". O resto da sua revisão já entrou.</small><span class="quando">Publica terça, 8h</span></label></div>
       <div class="item"><input type="checkbox" id="c4"><label for="c4"><b>Lancheira: três trocas</b><small>Pipoca de panela no lugar do salgadinho, vitamina de banana no lugar do achocolatado e a explicação da curva de Stephan na legenda.</small><span class="quando">Já publicado no domingo</span></label></div>
       <div class="item"><input type="checkbox" id="c5"><label for="c5"><b>Casa da avó: três pontos do roteiro</b><small>A quantidade de pasta por idade, o adulto terminando a escovação até os 7 ou 8 anos e a frase "não é só o doce".</small><span class="quando">Antes de gravar</span></label></div>
       <div class="item"><input type="checkbox" id="c6"><label for="c6"><b>Gravar o vídeo da casa da avó</b><small>O texto está no teleprompter. Uns 3 minutos de gravação.</small><span class="quando">Quando puder nesta semana</span></label></div>
